@@ -1,0 +1,53 @@
+## Introduction
+Livestream App is a full-stack application that allows users to view a livestream video from an RTSP URL and add custom overlays on top of the video. The application is built using Python (Flask) as the backend and React as the frontend.
+
+## Features
+Play livestream video from an RTSP URL
+Add custom overlays on top of the video
+CRUD (Create, Read, Update, Delete) operations for overlays
+User-friendly interface for managing overlays
+
+## Requirements
+Python 3.8+
+Flask 2.0+
+React 17+
+MongoDB 4.4+
+Node.js 14+
+npm 6+
+
+## Installation
+Backend (Python/Flask)
+Clone the repository: git clone https://github.com/your-username/livestream-app.git
+Navigate to the backend directory: cd livestream-app/server
+Install dependencies: pip install -r requirements.txt
+Run the application: python app.py
+
+## Frontend (React)
+Navigate to the frontend directory: cd livestream-app/client
+Install dependencies: npm install
+Run the application: npm start
+
+## Usage
+Open a web browser and navigate to http://localhost:3000
+Enter the RTSP URL in the input field and click "Play"
+Click on the "Add Overlay" button to create a new overlay
+Use the CRUD operations to manage overlays
+
+ ## API Documentation
+Overlay API
+GET /overlays: Retrieve all overlays
+POST /overlays: Create a new overlay
+GET /overlays/:id: Retrieve a single overlay
+PUT /overlays/:id: Update an overlay
+DELETE /overlays/:id: Delete an overlay
+Video API
+POST /video: Play a livestream video from an RTSP URL
+Troubleshooting
+Make sure to install all dependencies before running the application
+Check the console logs for any errors
+If the video does not play, try checking the RTSP URL and the video player settings
+Contributing
+Contributions are welcome! Please submit a pull request with your changes.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
